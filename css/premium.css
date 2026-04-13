@@ -518,6 +518,11 @@ a:hover {
   margin-top: 3px;
 }
 
+.footer-contact span {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   margin-top: 60px;
@@ -647,5 +652,17 @@ html {
 body {
     overflow-x: hidden;
     max-width: 100vw;
+}
+
+/* Service Location Cards */
+.location-card {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.location-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--color-white) !important;
+    box-shadow: var(--shadow-md) !important;
+    border-color: var(--color-accent) !important;
 }
 
