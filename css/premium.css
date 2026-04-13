@@ -298,6 +298,22 @@ a:hover {
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  .stat-number {
+    font-size: 2.2rem;
+  }
+  .stat-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+  }
+  .stat-item {
+    margin-bottom: 20px;
+  }
+  .stat-item:nth-child(2) {
+    border-right: none;
+  }
+}
+
 /* ==========================================================================
    Services
    ========================================================================== */
